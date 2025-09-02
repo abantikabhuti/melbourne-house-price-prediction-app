@@ -2,7 +2,7 @@
 ## About the project
 Datasource: [Kaggle](https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot)
 
-In this project, we will use linear regression with the Python `scikit-learn` library to predict housing prices in Melbourne. The goal is to understand which characteristics of a residential property (such as number of rooms, type, postcode etc.) influence its market value.
+In this project, we will use linear regression with the `scikit-learn` and `XGBoost` libraries in Python to predict housing prices in Melbourne. The goal is to understand which characteristics of a residential property (such as number of rooms, type, postcode etc.) influence its market value.
 
 We will use data cleaning and preprocessing techniques to prepare the data for analysis.
 
