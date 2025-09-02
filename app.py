@@ -45,7 +45,7 @@ rooms = st.sidebar.slider("🛏 Rooms", min_value=1, max_value=10, value=3)
 property_type = st.sidebar.selectbox("🏠 Property Type", options=["h - House", "u - Unit", "t - Townhouse"])
 postcode = st.sidebar.number_input("📬 Postcode", min_value=3000, max_value=3999, value=3000)
 distance = st.sidebar.slider("📏 Distance to City (km)", min_value=0.0, max_value=50.0, value=10.2, step=0.1)
-prop_count = st.sidebar.number_input("🏘 Property Count in Suburb", min_value=100, max_value=10000, value=1000)
+# prop_count = st.sidebar.number_input("🏘 Property Count in Suburb", min_value=100, max_value=10000, value=1000)
 
 # Encode property type
 type_map = {"h - House": 0, "u - Unit": 1, "t - Townhouse": 2}
