@@ -27,7 +27,7 @@ st.sidebar.markdown("Adjust the values below to predict house price.")
 # Load dataset (for feature info)
 @st.cache_data
 def load_data():
-    df = pd.read_csv('./C:/Users/Lenovo/Desktop/melb_data.csv')
+    df = pd.read_csv('melb_data.csv')
     return df
 
 df = load_data()
@@ -35,7 +35,7 @@ df = load_data()
 # Load model
 @st.cache_resource
 def load_model():
-    model = joblib.load("./C:/Users/Lenovo/Desktop/xgboost_house_price_model.pkl")
+    model = joblib.load("xgboost_house_price_model.pkl")
     return model
 
 model = load_model()
@@ -101,4 +101,3 @@ st.subheader("🧾 Dataset Sample")
 st.write(df.head())
 
 st.markdown("---")
-st.markdown("© 2025 House Price Predictor | Built By Abantika Bhuti")
