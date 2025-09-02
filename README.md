@@ -1,6 +1,6 @@
 # Melbourne House Price Prediction App
 ## App Interface
-
+![image](app-screen.png)
 ## About the project
 Datasource: [Kaggle](https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot)
 
