@@ -39,3 +39,13 @@ The variables in the dataset are:
 5. Visualizing predictions
 6. Making sample prediction
 7. Saving model using `joblib`
+## Exploratory Data Analysis
+### Feature Correlation
+![image](heatmap.png)
+### Distribution of House Prices
+![image](histogram.png)
+## Visualizing Predictions
+### Predicted vs. Actual Price
+![image](scatterplot.png)
+## Feature Importance
+![image](feature-importance.png)
