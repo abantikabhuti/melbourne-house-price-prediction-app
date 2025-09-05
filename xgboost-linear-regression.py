@@ -12,7 +12,7 @@ from sklearn.preprocessing import LabelEncoder
 
 ########### 2. Load Dataset ###########
 
-df = pd.read_csv(r"C:\Users\Lenovo\Desktop\melb_data.csv")
+df = pd.read_csv("melb_data.csv")
 df.head()
 
 ########### 3. Data Preprocessing ###########
