@@ -82,7 +82,7 @@ col1, = st.columns(1)  # Creates 1 column
 
 with col1:
     st.markdown("### Feature Correlation")
-    fig3, ax1 = plt.subplots(figsize=(6, 4))
+    fig3, ax1 = plt.subplots(figsize=(4,4))
     sns.heatmap(df[['Rooms','Type','Postcode','Distance','Propertycount']].corr(numeric_only=True), annot=True, cmap='rocket')
     st.pyplot(fig3)
 
