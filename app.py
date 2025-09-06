@@ -76,6 +76,18 @@ with col2:
 
 st.markdown("---")
 
+# --- Layout: One Column ---
+col1 = st.columns(1)  # Creates 1 column
+
+
+with col1:
+    st.markdown("### Feature Correlation")
+    fig3, ax1 = plt.subplots(figsize=(6, 4))
+    sns.heatmap(df[['Rooms','Type','Postcode','Distance','Propertycount']].corr(numeric_only=True), annot=True, cmap='rocket')
+    st.pyplot(fig3)
+
+st.markdown("---")
+
 # --- Layout: Two Columns ---
 col1, col2 = st.columns(2)  # Creates 2 side-by-side columns
 
