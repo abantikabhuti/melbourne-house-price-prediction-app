@@ -77,7 +77,7 @@ with col2:
 st.markdown("---")
 
 # --- Layout: One Column ---
-col1 = st.columns(1)  # Creates 1 column
+col1, = st.columns(1)  # Creates 1 column
 
 
 with col1:
