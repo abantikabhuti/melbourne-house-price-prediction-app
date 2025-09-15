@@ -1,11 +1,17 @@
 # Melbourne House Price Prediction App
 ## Table of Contents
 - [App Interface](#app-interface)
+- [About the Project](#about)
+- [Data Description](#data-desc)
+- [Project Steps](#steps)
+- [Exploratory Data Analysis](#eda)
+- [Visualizing Predictions](#visualize)
+- [Feature Importance](#feature)
 ## App Interface
 **Link:** https://2025-house-price-prediction.streamlit.app/
 
 ![image](app-screen.png)
-## About the project
+## About the Project
 **Datasource:** [Kaggle](https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot)
 
 In this project, we will use **linear regression** with the `scikit-learn` and `XGBoost` libraries in Python to predict housing prices in Melbourne. The goal is to predict house prices based on user-provided data.
