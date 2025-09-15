@@ -1,12 +1,12 @@
 # Melbourne House Price Prediction App
 ## Table of Contents
 - [App Interface](#app-interface)
-- [About the Project](#about)
-- [Data Description](#data-desc)
-- [Project Steps](#steps)
-- [Exploratory Data Analysis](#eda)
-- [Visualizing Predictions](#visualize)
-- [Feature Importance](#feature)
+- [About the Project](#about-the-project)
+- [Data Description](#data-description)
+- [Project Steps](#project-steps)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Visualizing Predictions](#visualizing-predictions)
+- [Feature Importance](#feature-importance)
 ## App Interface
 **Link:** https://2025-house-price-prediction.streamlit.app/
 
