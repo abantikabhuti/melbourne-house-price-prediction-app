@@ -1,5 +1,6 @@
 # Melbourne House Price Prediction App
-
+## Table of Contents
+- [App Interface](#app-interface)
 ## App Interface
 **Link:** https://2025-house-price-prediction.streamlit.app/
 
