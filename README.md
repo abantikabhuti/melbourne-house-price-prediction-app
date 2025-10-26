@@ -1,4 +1,4 @@
-# Melbourne House Price Prediction App
+# House Price Prediction App
 ## Table of Contents
 - [App Interface](#app-interface)
 - [About the Project](#about-the-project)
